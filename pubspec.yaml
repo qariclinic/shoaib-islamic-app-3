@@ -1,0 +1,31 @@
+
+name: shoaib_islamic_app
+description: A simple Islamic reference app with Quran, Hadith, Fatawa, and Azkar.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^0.14.0
+  shared_preferences: ^2.0.15
+  flutter_svg: ^1.1.6
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/
+  fonts:
+    - family: UrduType
+      fonts:
+        - asset: assets/fonts/UrduType.ttf
